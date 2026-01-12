@@ -1,0 +1,63 @@
+# Environment files
+.env
+.env.*
+*.env
+!.env.example
+
+# Google Cloud credentials
+*.json
+!package*.json
+credentials/
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+25: lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Deployment
+deploy.sh.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
